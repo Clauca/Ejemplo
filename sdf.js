@@ -1,14 +1,3 @@
-Sfunction asociaEvento (){
-	
-}
-function validaCampo (campo){
-	if (campo == 'nombre') {
-		if (nodoNombre.value == ''){
-			nodoNombre.setCustomValidity('El nombre ingresado debe tener una longitud de 2 a 20 caracteres');
-			nodoNombre.style.backgroundColor = '#B82725';
-		} else{
-			nodoNombre.setCustomValidity('');
-			nodoNombre.style.backgroundColor = '#5AA832';
 
 function validaCampo (campo){
 	if (campo == 'nombre') {
