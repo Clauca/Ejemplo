@@ -1,19 +1,3 @@
-Sfunction asociaEvento (){
-	nodoNombre = document.getElementById('nombre');
-	nodoApellido = document.getElementById('apellido');
-	nodoEmail = document.getElementById('email');
-	nodoTelefono = document.getElementById('telefono');
-
-	nodoNombre.addEventListener('input',validaCampo('nombre'));
-	nodoApellido.addEventListener('input',validaCampo('apellido'));
-	nodoEmail.addEventListener('input',validaCampo('email'));
-	nodoTelefono.addEventListener('input',validaCampo('telefono'));
-
-	validaCampo('nombre');
-	validaCampo('apellido');
-	validaCampo('email');
-	validaCampo('telefono');
-}
 
 function validaCampo (campo){
 	if (campo == 'nombre') {
